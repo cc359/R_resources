@@ -12,3 +12,5 @@ comment.char="",allowEscapes=FALSE, flush=FALSE,stringsAsFactors=TRUE,
 fileEncoding="", encoding="unknown")
 
 fix(DataFrame)
+
+boxplot(DataFrame$Confidence_Rating, horizontal=TRUE,main="Distribution of Confidence Ratings", ylab="Confidence Rating")
